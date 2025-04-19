@@ -2,11 +2,11 @@ services:
   - type: web
     name: Xstro
     runtime: docker
-    repo: https://github.com/AstroX11/Xstro
+    repo: https://github.com/XJAY-GAMING/XJAY-XSTRO-MD
     plan: free
     envVars:
-      - key: SESSION
-        sync: false
+      - key: SESSION-ID
+        sync: true
     region: oregon
     dockerContext: .
     dockerfilePath: ./Dockerfile
